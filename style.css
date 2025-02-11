@@ -1,0 +1,216 @@
+@import url("https://fonts.google.com/noto/specimen/Noto+Sans");
+@import url("styles/desktop.css") screen and (min-width: 1024px);
+
+h1 {
+  text-align: center;
+  margin: 10px auto;
+  position: relative;
+  border: solid 5px darkblue;
+  background-color: lightblue;
+}
+p {
+  text-align: center;
+  border: solid 5px darkblue;
+  background-color: lightblue;
+}
+h8 {
+  text-align: center;
+  border: solid 5px darkblue;
+  background-color: lightblue;
+}
+
+h4 {
+  border: solid 5px darkblue;
+  background-color: lightblue;
+}
+ol {
+  border: solid 5px darkblue;
+  background-color: lightblue;
+}
+
+#auditorium {
+  height: 2000px;
+  width: 1000px;
+  background-color: #ccc;
+  margin: auto;
+  positison: auto;
+}
+.white-text {
+  color: White;
+}
+.black-text {
+  color: black;
+}
+
+#stage {
+  border-radius: 25%;
+  height: 150px;
+  width: 200px;
+  border: solid 4px black;
+  margin: 10px auto;
+  position: relative;
+  top: 25px;
+  text-align: center;
+  background-color: darkblue;
+}
+
+#firstrow {
+  font-family: "Noto Sans";
+  top: 50px;
+  width: 800px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+  height: 70px;
+}
+
+#secondrow {
+  font-family: "Noto Sans";
+  top: 50px;
+  width: 800px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+  height: 70px;
+}
+
+#thirdrow {
+  font-family: "Noto Sans";
+  top: 50px;
+  width: 800px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+  height: 70px;
+}
+#fourthrow {
+  font-family: "Noto Sans";
+  top: 50px;
+  width: 800px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+  height: 70px;
+}
+#fifthrow {
+  font-family: "Noto Sans";
+  top: 200px;
+  width: 800px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+  height: 70px;
+}
+#sixthrow {
+  font-family: "Noto Sans";
+  top: 50px;
+  width: 800px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+  height: 70px;
+}
+#seventhrow {
+  font-family: "Noto Sans";
+  top: 200px;
+  width: 800px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+  height: 70px;
+}
+#eighthrow {
+  font-family: "Noto Sans";
+  top: 50px;
+  width: 800px;
+  height: 70px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+#ninthrow {
+  font-family: "Noto Sans";
+  top: 50px;
+  width: 800px;
+  height: 70px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+#tenthrow {
+  font-family: "Noto Sans";
+  top: 50px;
+  width: 800px;
+  height: 70px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+#eleventhrow {
+  font-family: "Noto Sans";
+  top: 50px;
+  width: 800px;
+  height: 70px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+#twelverow {
+  font-family: "Noto Sans";
+  top: 50px;
+  width: 800px;
+  height: 70px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+#thirteenthrow {
+  font-family: "Noto Sans";
+  top: 50px;
+  width: 800px;
+  height: 70px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+
+.seats {
+  background-color: #51e2f5;
+  height: 30px;
+  border: solid 3px darkblue;
+}
+
+button {
+  border-radius: 25%;
+  height: 30px;
+  width: 100px;
+  border: dotted 4px black;
+  margin: 10px auto;
+  position: relative;
+  text-align: center;
+  background-color: darkblue;
+}
+.button {
+  transition-duration: 0.4s;
+}
+.button:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.container {
+  text-align: center;
+}
