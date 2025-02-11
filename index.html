@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title class="black-text">landons-auditorium-layout</title>
+  <link rel="stylesheet" href="https://public.codepenassets.com/css/normalize-5.0.0.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css'><link rel="stylesheet" href="./style.css">
+<style>
+  @import url("https://fonts.google.com/noto/specimen/Noto+Sans");
+@import url("styles/desktop.css") screen and (min-width: 1024px);
+
+h1 {
+  text-align: center;
+  margin: 10px auto;
+  position: relative;
+  border: solid 5px darkblue;
+  background-color: lightblue;
+}
+p {
+  text-align: center;
+  border: solid 5px darkblue;
+  background-color: lightblue;
+}
+h8 {
+  text-align: center;
+  border: solid 5px darkblue;
+  background-color: lightblue;
+}
+
+h4 {
+  border: solid 5px darkblue;
+  background-color: lightblue;
+}
+ol {
+  border: solid 5px darkblue;
+  background-color: lightblue;
+}
+
+#auditorium {
+  height: 2000px;
+  width: 1000px;
+  background-color: #ccc;
+  margin: auto;
+  positison: auto;
+}
+.white-text {
+  color: White;
+}
+.black-text {
+  color: black;
+}
+
+#stage {
+  border-radius: 25%;
+  height: 150px;
+  width: 200px;
+  border: solid 4px black;
+  margin: 10px auto;
+  position: relative;
+  top: 25px;
+  text-align: center;
+  background-color: darkblue;
+}
+
+#firstrow {
+  font-family: "Noto Sans";
+  top: 50px;
+  width: 800px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+  height: 70px;
+}
+
+#secondrow {
+  font-family: "Noto Sans";
+  top: 50px;
+  width: 800px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+  height: 70px;
+}
+
+#thirdrow {
+  font-family: "Noto Sans";
+  top: 50px;
+  width: 800px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+  height: 70px;
+}
+#fourthrow {
+  font-family: "Noto Sans";
+  top: 50px;
+  width: 800px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+  height: 70px;
+}
+#fifthrow {
+  font-family: "Noto Sans";
+  top: 200px;
+  width: 800px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+  height: 70px;
+}
+#sixthrow {
+  font-family: "Noto Sans";
+  top: 50px;
+  width: 800px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+  height: 70px;
+}
+#seventhrow {
+  font-family: "Noto Sans";
+  top: 200px;
+  width: 800px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+  height: 70px;
+}
+#eighthrow {
+  font-family: "Noto Sans";
+  top: 50px;
+  width: 800px;
+  height: 70px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+#ninthrow {
+  font-family: "Noto Sans";
+  top: 50px;
+  width: 800px;
+  height: 70px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+#tenthrow {
+  font-family: "Noto Sans";
+  top: 50px;
+  width: 800px;
+  height: 70px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+#eleventhrow {
+  font-family: "Noto Sans";
+  top: 50px;
+  width: 800px;
+  height: 70px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+#twelverow {
+  font-family: "Noto Sans";
+  top: 50px;
+  width: 800px;
+  height: 70px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+#thirteenthrow {
+  font-family: "Noto Sans";
+  top: 50px;
+  width: 800px;
+  height: 70px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+
+.seats {
+  background-color: #51e2f5;
+  height: 30px;
+  border: solid 3px darkblue;
+}
+
+button {
+  border-radius: 25%;
+  height: 30px;
+  width: 100px;
+  border: dotted 4px black;
+  margin: 10px auto;
+  position: relative;
+  text-align: center;
+  background-color: darkblue;
+}
+.button {
+  transition-duration: 0.4s;
+}
+.button:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.container {
+  text-align: center;
+}
+</style>
+</head>
+
+
+<body>
+
+  <h1 class="black-text">landons-auditorium-layout</h1>
+  <p>This is a website to see if seats are booked or avalable in an auditorium atmosphere.</p>
+  <h8>By: Matthew Landon Andrews</h8><br>
+  <ol>
+    <li><a href="https://www.bing.com/ck/a?!&&p=400a46b9292befae88e6f3b24f8b1f2ff7a0af20aca040e4da94e8df75ffa90fJmltdHM9MTczOTE0NTYwMA&ptn=3&ver=2&hsh=4&fclid=00c5b611-7b4a-6255-0be9-a5617a6363b8&u=a1L2ltYWdlcy9zZWFyY2g_cT13aXJlZnJhbWUlMjBmb3IlMjBzZWF0JTIwbGF5b3V0JTIwZm9yJTIwYW4lMjBhdWRpdG9ybWl1bSZGT1JNPUlRRlJCQSZpZD0yNkM2Mjc3MERCMzMxQjM2NTZCNjM3Mzk5NUM2RjFDRTEzNjg0Mjg5&ntb=1">WireFrame</a></li>
+    <li><a href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">Normalize</a></li>
+    <li><a href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">Bs5</a></li>
+    <li><a href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js">JQ</a></li>
+    <li><a href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js">JQui</a></li>
+    <li><a href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js">bs.js</a></li>
+
+<div id="auditorium">
+
+  <div id="stage" class="white-text"><br><br>🦭🦭Main Stage🦭🦭</div>
+  <br>
+  <div class="seats" id="firstrow">SA</div>
+  <div id="secondrow" class="seats">SB</div>
+  <div id="thirdrow" class="seats">SC</div>
+  <div id="fourthrow" class="seats">SD</div>
+  <div id="fifthrow" class="seats">SE</div>
+  <div id="sixthrow" class="seats">SF</div>
+  <div id="seventhrow" class="seats">SG</div>
+  <div id="eighthrow" class="seats">SH</div>
+  <div id="ninthrow" class="seats">SI</div>
+  <div id="tenthrow" class="seats">SJ</div>
+  <div id="eleventhrow" class="seats">SK</div>
+  <div id="fifthrow" class="seats">SL</div>
+  <div id="sixthrow" class="seats">SM</div>
+
+  <div class="container"><button id="reserve"> Reserve</button>
+    <div class="container"><button id="submit"> Submit</button>
+      <div class="container"><button id="exit"> Exit</button>
+
+      </div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+<script>
+  $(document).ready(function () {
+  function labelSeats() {
+    let rows = $(".seats");
+    rows;
+    let totalSeatsPerRow = 10;
+    let seatLetter = "A";
+
+    rows.each(function () {
+      let row = $(this);
+      row.append("<br>");
+
+      for (let i = 1; i <= totalSeatsPerRow; i++) {
+        let seatLabel = seatLetter + i;
+        row.append(`<button class="container">S ${seatLabel}</button>`);
+      }
+      seatLetter = String.fromCharCode(seatLetter.charCodeAt(0) + 1);
+    });
+  }
+
+  labelSeats();
+
+  $("#firstrow").draggable();
+  $("#secondrow").draggable();
+  $("#thirdrow").draggable();
+
+  $("#stage").on("click", function () {
+    $("#stage").animate({ right: "150px" });
+  });
+});
+</script>
+
+</body>
+</html>
